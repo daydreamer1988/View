@@ -16,6 +16,7 @@ public class LifeCycleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_life_cycle);
         findById();
+        setTitle("ViewGroup及View的生命周期");
 
         initData();
     }
@@ -55,8 +56,6 @@ public class LifeCycleActivity extends AppCompatActivity {
         mTv = (TextView) findViewById(R.id.tv);
 
         mLifeCycle = (LifeCycleViewGroup) findViewById(R.id.lifeCycle);
-
-
 
     }
 }

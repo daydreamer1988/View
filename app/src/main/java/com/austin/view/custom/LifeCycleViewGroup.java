@@ -121,7 +121,6 @@ public class LifeCycleViewGroup extends ViewGroup {
                 //setSelected(flag);
 
                 break;
-
         }
 
         return true;
