@@ -33,7 +33,19 @@
                 android:layout_height="wrap_content"
                 />
 
-
+            <Button
+                android:id="@+id/color"
+                android:text="颜色"
+                android:onClick="colorActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:text="View的构造函数"
+                android:onClick="analyzeConstructor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
         </LinearLayout>
 
     </ScrollView>

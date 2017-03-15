@@ -1,11 +1,38 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="attr_one">attr one from AppTheme</item>
+        <item name="attr_two">attr two from AppTheme</item>
+        <item name="attr_three">attr three from AppTheme</item>
+        <item name="attr_four">attr four from AppTheme</item>
+        <item name="attr_five">attr five from AppTheme</item>
+
+
+        <item name="AnylyseAttributeView_defStyleAttr">
+            @style/AnyliseAttributeView_FromThemeReference</item>
+    </style>
+
+    <style name="AnalyseAttributeView_FromStyle">
+        <item name="attr_one">attr one from style</item>
+        <item name="attr_two">attr two from style</item>
+    </style>
+
+    <style name="AnyliseAttributeView_FromThemeReference">
+        <item name="attr_one">attr one from theme reference</item>
+        <item name="attr_two">attr two from theme reference</item>
+        <item name="attr_three">attr three from theme reference</item>
+    </style>
+
+    <style name="DefaultStyle">
+        <item name="attr_one">attr one from default</item>
+        <item name="attr_two">attr two from default</item>
+        <item name="attr_three">attr three from default</item>
+        <item name="attr_four">attr four from default</item>
     </style>
 
 </resources>

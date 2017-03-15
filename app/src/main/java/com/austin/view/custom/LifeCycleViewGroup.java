@@ -33,6 +33,8 @@ public class LifeCycleViewGroup extends ViewGroup {
         setWillNotDraw(false);
         //setBackgroundResource(R.color.colorAccent);
 
+
+
     }
 
 

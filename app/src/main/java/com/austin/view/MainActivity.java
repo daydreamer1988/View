@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.austin.view.subactivity.AnalyseConstructorActivity;
+import com.austin.view.subactivity.ColorActivity;
 import com.austin.view.subactivity.CoordinateActivity;
 import com.austin.view.subactivity.LifeCycleActivity;
 
@@ -39,12 +41,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
     }
 
     private void findById() {
         mLifeCycle = (Button) findViewById(R.id.lifeCycle);
-
         mCoordinate = (Button) findViewById(R.id.coordinate);
+    }
 
+    public void colorActivity(View view) {
+        startActivity(new Intent(this, ColorActivity.class));
+    }
+
+    public void analyzeConstructor(View view) {
+        startActivity(new Intent(this, AnalyseConstructorActivity.class));
     }
 }
