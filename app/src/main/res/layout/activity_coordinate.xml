@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_coordinate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/fromActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Activity 中的 onTouchEvent"
+        />
+
+    <LinearLayout
+        android:id="@+id/a"
+        android:layout_below="@+id/fromActivity"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/xY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/rawXY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@+id/a"
+        android:id="@+id/fromView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="View 中的 onTouchEvent"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/fromView"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/viewxY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/viewrawXY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/redView"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:background="@color/colorAccent"
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ParentView"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            />
+
+        <com.austin.view.custom.CoordinateView
+            android:id="@+id/coordinatView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/redView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+    </ScrollView>
+
+
+
+</RelativeLayout>
