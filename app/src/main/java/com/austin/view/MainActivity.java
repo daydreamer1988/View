@@ -10,6 +10,7 @@ import com.austin.view.subactivity.AnalyseConstructorActivity;
 import com.austin.view.subactivity.ColorActivity;
 import com.austin.view.subactivity.CoordinateActivity;
 import com.austin.view.subactivity.LifeCycleActivity;
+import com.austin.view.subactivity.OnMeasureAnalyseActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button mLifeCycle;
@@ -56,5 +57,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void analyzeConstructor(View view) {
         startActivity(new Intent(this, AnalyseConstructorActivity.class));
+    }
+
+    public void analyzeOnMeasure(View view) {
+        startActivity(new Intent(this, OnMeasureAnalyseActivity.class));
     }
 }

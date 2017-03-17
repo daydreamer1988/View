@@ -46,6 +46,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
+
+            <Button
+                android:text="View的onMeasure()分析"
+
+                android:onClick="analyzeOnMeasure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
         </LinearLayout>
 
     </ScrollView>
