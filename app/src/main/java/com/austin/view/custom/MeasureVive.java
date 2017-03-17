@@ -24,6 +24,7 @@ public class MeasureVive extends View {
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
         int widthSize = MeasureSpec.getSize(widthMeasureSpec);
         int heightSize = MeasureSpec.getSize(heightMeasureSpec);
+
         Log.e(TAG, "widthMode:" + getModeName(widthMode));
         Log.e(TAG, "widthSize:" + widthSize);
         Log.e(TAG, "heightMode:" + getModeName(heightMode));

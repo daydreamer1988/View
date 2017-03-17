@@ -54,6 +54,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
+
+            <Button
+                android:text="View的事件处理分析"
+
+                android:onClick="analyzeTouch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
         </LinearLayout>
 
     </ScrollView>

@@ -22,8 +22,9 @@
         <activity android:name=".subactivity.ColorActivity" />
         <activity
             android:name=".subactivity.AnalyseConstructorActivity"
-            android:theme="@style/AppTheme"></activity>
-        <activity android:name=".subactivity.OnMeasureAnalyseActivity"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".subactivity.OnMeasureAnalyseActivity" />
+        <activity android:name=".subactivity.TouchActivity"></activity>
     </application>
 
 </manifest>
