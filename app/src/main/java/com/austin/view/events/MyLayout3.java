@@ -1,29 +1,28 @@
 package com.austin.view.events;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.LinearLayout;
 
-import com.austin.view.R;
-
 /**
  * Created by Austin on 2017/3/17.
  */
 
-public class MyLayout2 extends LinearLayout {
+public class MyLayout3 extends LinearLayout {
 
-    public static final String TAG = "MyLayout2";
+    public static final String TAG = "MyLayout3";
 
-    public MyLayout2(Context context) {
+    public MyLayout3(Context context) {
         this(context, null);
     }
 
-    public MyLayout2(Context context, AttributeSet attrs) {
+    public MyLayout3(Context context, AttributeSet attrs) {
         super(context, attrs);
-        Log.e(TAG, "MyLayout2(Context context, AttributeSet attrs)");
-        setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+        Log.e(TAG, "MyLayout3(Context context, AttributeSet attrs)");
+        setBackgroundColor(Color.parseColor("#ff00ff00"));
 
     }
 
